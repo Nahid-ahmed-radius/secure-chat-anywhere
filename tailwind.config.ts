@@ -61,7 +61,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                // Custom colors for our encrypted messaging app
+                app: {
+                    primary: '#4338ca', // Deep indigo
+                    accent: '#8b5cf6', // Purple accent
+                    success: '#0d9488', // Teal
+                    warning: '#f59e0b', // Amber
+                    error: '#e11d48', // Rose
+                    dark: '#121212', // Near-black for dark mode
+                    gray: {
+                        dark: '#1f2937',
+                        medium: '#374151',
+                        light: '#9ca3af',
+                    }
+                }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
